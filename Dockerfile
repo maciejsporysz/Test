@@ -8,6 +8,6 @@ COPY app.py requirements.txt /app/
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 # Expose the port the app runs on
-EXPOSE 8080
+EXPOSE 8083
 # Command to run the application
 CMD ["python", "app.py"]
